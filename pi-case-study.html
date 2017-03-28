@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<title>Payments and Invoicing Project</title>
+<!-- Detailed Version -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="portfoliostyles.css">
+<script type="text/javascript" src="javascript.js"></script>
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K4RL2N"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K4RL2N');  
+</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body class="pi">
+<div id="navbar">
+	<div id="logo">
+		<a href="index.html"><img src="logo3.png" width="35px" /></a>
+	</div>
+	<div id="links">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html#work" id="selected">Work</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+	 <div class="hamburger" onclick="myFunction(this), show('mobmenu')">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+	</div>
+	
+	<div id="mobmenu">
+	  <ul>
+		<li><a href="#" class="selected">Home</a></li>
+		<li><a href="#">Work</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	  </ul>
+	</div> 
+</div>
+
+<div id="hero">
+	<div id="headline">
+		<h1>Payments and Invoicing</h1>
+		<h2>Research Case Study</h2>
+	</div>
+</div> <!-- Hero -->
+
+<div id="work">
+<div class="content">
+		<h1 class="responsive">Research Case Study</h1>
+			<p>The business's core product was a two-sided marketplace to connect consumers who need a job done with local service providers (e.g. carpenters, photographers, removalists, etc.) who are available to do the work.</p>
+
+		<h2>Business Problem</h2>
+		As a result of the organisation pivoting to a different revenue model, there was a business need to collect transaction data (which often occurred offline).
+
+		<h2>Research Objective</h2>
+		Establish the existing mental model regarding payments for jobs. Ascertain why certain payment methods are preferred and if there are any opportunities to improve the experience in an online setting.
+		
+		<h2>Constraints</h2>
+		In-person contextual inquiries were not feasible but I compensated for this by doing them remotely (screensharing on Skype during) some of my interviews, so that even if I couldn't observe the physical context/environment, I could at least observe their digital behaviour/environment with real data.
+		
+		<h2>Methodology</h2>
+		<img src="diagram.png" id="diagram">
+		
+		<ul class="responsive">
+			<li>
+				<b>Research:</b> Understand users and context.
+				<ul>
+					<li>Surveys</li>
+					<li>Interviews</li>
+				</ul>
+			</li>
+			
+			<li>
+				<b>Analysis:</b> Draw insights from research.
+				<ul>
+					<li>Affinity mapping</li>
+					<li>Personas</li>
+				</ul>
+			</li>
+			
+			<li>
+				<b>Synthesis:</b> Explore solutions
+				<ul>
+					<li>Scenarios</li>
+					<li>Design studios/ideation workshops</li>
+				</ul>
+			</li>
+			
+			<li>
+				<b>Delivery:</b> Implementation
+				<ul>
+					<li>MVP</li>
+					<li>Usability Testing</li>
+					<li>Iteration</li>
+				</ul>
+			</li>
+		</ul>
+		
+		
+	<div id="detailedText">
+		<h2>Research</h2>
+		We knew the business impetus for the project, but was actually there a problem to be solved from the users' perspective?
+		
+		<h3>Research Objective</h3>
+		Find out how payments currently work and why people prefer various methods. (i.e. establish the status quo and identify any opportunities for improvement)
+		
+		<h3>Conducting the Research</h3>
+		I set up a survey asking users about how they paid for a specific job and why, as well as their general preferences with payments. This way, I elicited both preferential data and the actual outcome.
+		
+		<blockquote>
+			<b>Survey Questions</b>
+			<br>Customers
+			<ul>
+				<li>What was the last job you hired someone for?</li>
+				<li>How did you pay for this job?</li>
+				<li>Why did you choose that method over the others?</li>
+				<li>If different to the above, what is your most preferred method and why?</li>
+			</ul>
+
+			Businesses
+			<ul>
+				<li>Which industry do you work in?</li>
+				<li>Which payment methods do you accept?</li>
+				<li>Which is your most preferred and why?</li>
+				<li>Which do you NOT accept? Why not? (Optional)</li>
+			</ul>
+		</blockquote>
+		
+		Some considerations I made while writing the questions include the following:
+			<ul>
+				<li>Asking for the industry/job type allowed me to look at the differences/similarities between payments in different industries</li>
+				<li>Asking specifically about the customer's last job helped to get more accurate information than if I were to ask them to generalise</li>
+				<li>I asked for both actual and preferred payment methods to track the difference</li>
+			</ul>
+		
+		In addition to the survey, I added a modified version of the questions to one of the customer support call scripts and used the call centre to get volume around the research. I also conducted my own phone and/or Skype interviews to delve deeper
+		
+		
+		<h2>Analysis</h2>
+			I affinity mapped the research findings, grouping them by payment method and then by reasons/themes. I was able to identify patterns in cases where each payment method was the most preferable and why. I also paid attention to when the preferential data was different to their actual behaviour, as that suggested an unfulfilled need. We were able to uncover some insights about the payments process and validate the existence of a problem to be solved regarding credit cards.
+						
+			<h3>Customers wanted to do what was easiest for the business</h3>
+			Although customers had preferences for payment, the actual payment method used was generally influenced by what was easiest or asked for by the business, especially if there was rapport.
+
+			<h3>Cash and Bank Transfer were easiest</h3>
+			The words "easy" and "quick" featured prominently in the research results, and cash and bank transfer were considered the most convenient.
+
+			<br><br>There are a number of circumstances that influence which method is preferable including
+			<ul>
+				<li>If the price is known/predictable before the job starts</li>
+				<li>The size/value of the job</li>
+				<li>Whether the payment is made face to face</li>
+			</ul>
+			
+
+			<h3>Cash was preferable for smaller jobs and/or where the cost was known</h3>
+			The big drawcard for cash is that it's instant and universal. Customers knew that cash would always be accepted (and sometimes they even got discounts). For businesses, it saved them a lot of hassle. And for both customers and businesses, paying cash meant that it was over and done with. However, a big dependency in this advantage is having the cash on hand. The larger the job, the less likely the customer would be to have enough cash on hand. Likewise, for jobs where the cost is not known in advance. Having to withdraw cash, particularly large amounts, was a disadvantage (and withdrawing may not even be feasible for jobs where everything takes place on the same day). In these cases, bank transfer was preferable.
+
+			<h3>Bank Transfer was preferable for large and/or less predictable amounts</h3>
+			Bank transfer was advantageous in that it didn't require the customer to have the cash on hand (which is useful when the amount is large and/or not known upfront). It also had the advantage of being traceable, which provided the customer with a sense of security. With cash jobs, there was not always an invoice or receipt, but traceability was not as big an issue for smaller value jobs. For businesses, it allowed them to go home after they've been working all day and take care of the invoicing and admin tasks later (as payment by bank transfer doesn't need to be done face to face). Additionally, for some businesses, their accounting systems were set up to automatically match bank receipts with accounting revenue.
+
+			<br><br>However, since the payment is not settled then and there, there is a risk of dragging the process out as customers do not always pay promptly (and in some cases, they don't pay at all).
+
+			<h3>Accepting credit cards wasn't worth it</h3>
+			While the majority of payments were by bank or cash transfer, very few businesses offered credit card as a payment option. This was because of the cost and equipment associated, which business's could not justify given the size of their business and the ease of alternatives. Credit card did feature prominently in the preferential data from customers, however (particularly for larger jobs).
+
+			<h3>Businesses were anxious about getting paid</h3>
+			By far, the pervading theme of business's frustrations with the payment process was anxiety about getting paid, including not getting paid on time (or at all), customer resistance to payment, and the feeling of uncertainty that came along with all of it. Moreover, chasing customers up for payment was time consuming.
+
+			<h3>Opportunity: The best of both worlds</h3>
+			There was an opportunity to save business's time and ease their anxiety by combining the certainty that came with settling the payment immediately, and the traceability and flexibility of bank transfers. It also reduces admin by utilising the information we already have about the initial quote, the business's bank details, the customer's contact information, etc. Furthermore, if the barrier to accepting card payments was cost and equipment, that was something we could address using mobile and absorbing the credit card fees (this was possible as the businesses paid a commission that was greater than the cost of the credit card fee). 
+			
+			<img src="venn.png" id="venn">
+
+		<h2>Synthesis</h2>
+			<h3>Personas</h3>
+			We saw some patterns emerge in the data, which we captured by creating personas. In summary, our main personas were:
+				<ul>
+					<li><b>Mick:</b> 35 year old electrician, high domain knowledge, relatively low tech savviness, prefers cash but also accepts bank transfer.</li>
+					<li><b>Alana:</b> 25 year old architect, larger scale jobs, tech savvy, not always present, prefers bank transfer.</li>
+					<li><b>Julie:</b> 30 year old customer, low domain knowledge, time poor. Prefers whichever is easier in the situation (prefers cash if she has it on hand/doesn't need to withdraw).</li>
+				</ul>		
+				
+			<img src="persona.jpg" id="persona" />
+			<a href="persona.jpg" class="thumb"><img src="persona.jpg"/></a>
+			s
+			<h3>Scenarios</h3>
+			I gathered everyone who would be working on the payments project and we storyboarded the different scenarios (price known/unknown, settled immediately/later, etc.) based on the research and the personas we had identified. We looked at when the pain points happened, and the surrounding context. Then we iterated on the storyboard with the proposed solution.
+
+			In our scenarios we were particularly interested in:
+			<ul>
+				<li>Mick doing a small/large job</li>
+				<li>Price is known/unknown at the start</li>
+				<li>Invoicing on site/after the job</li>
+				<li>Julie paying promptly/needing to be prompted</li>
+			</ul>
+			
+			<img src="storyboard1.jpg" id="storyboard"/>
+			<a href="storyboard1.jpg" class="thumb"><img src="storyboard1.jpg"/></a>
+			
+			<br> <br>The main problem points we identified were:
+
+			<ul>
+				<li>Julie doesn't have the cash on her</li>
+				<li>Julie has so much to do, she forgets about/procrastinates paying Mick (bank transfer)</li>
+				<li>Mick is anxious about getting paid, and has to spend time chasing customers up</li>
+			</ul>
+			
+			We also came up with possible variations for other scenarios:
+			<ul>
+				<li><b>Escrow</b> - jobs requiring deposits and/or instalments (I went back and did more research on this one)</li>
+				<li><b>Invoice</b> - jobs where Julie requires traceability or a breakdown of the price</li>
+				<li><b>Customer initiated transactions</b> - where Julie is more tech savvy than Mick, Mick can initiate verbally as normal and Julie can respond by initiating the online portion of the transaction</li>
+			</ul>
+			
+			<h3>Ideation workshop</h3>
+			We knew broadly what were going to do, and we had described it in prose. We had an invoicing system on the site that we could adapt for some of this project (this made it a lot easier for the developers, and we could make changes based on feedback). However, for the more substantive parts that we were starting from scratch, we began the design process with an ideation workshop. It has been proven that groups outperform individuals when performing creative tasks, and the design studio technique allowed us to harness this effect in eliciting creative ideas from a cross functional team.
+			<br> <br> One example is the workshop we conducted for escrow. In preparation, we looked at competitor's offerings (e.g. Airtasker, Freelancer, Odesk) to see how they implemented theirs. Together, we analysed the merits of each, and identified the differences in context (e.g. Freelancer's solution was good for Alana, but not so great for Mick). A variety of ideas came out of the workshop including:
+			
+			<ul>
+				<li>A contract metaphor: accepting the quote for works done and establishing the escrow with release contingent upon said works being completed</li>
+				<li>Automatically establishing escrow for some job types</li>
+				<li>Replicating the existing payment flow (instead of requesting just payment, adding an extra step of requesting escrow deposit)</li>
+				<li>Use of mobile to conduct the transaction (particularly releasing funds), including authorising the payment by replying to an SMS</li>
+				<li>There were also ideas about the language to be used, where the feature should sit in the site and various interface elements</li>
+			</ul>
+			
+			It was decided that for practicality, we would adapt the existing payment flow for escrow in the short term, with a view to fleshing it out with the other ideas (e.g. contract metaphor) in the long term (subject to any learnings in the interim).
+			
+			<h3>Sketching</h3>
+			Sometimes a design studio was considered overkill if the problem was fairly straightforward, such as allowing Julie to access her transaction history and receipts. In cases such as this, I would look at the research we had done and sketch the required flow for the user goal, either on my own or with my payments colleagues. At this stage, the aim was to come up with the framework, rather than the specific interface details. I would come up with a couple of alternatives and discuss it with the team. Once we had a shared vision, we began prototyping.
+			
+		<h2>Delivery</h2>
+		<h3>Prototyping</h3>
+		Before we began building anything, I first built a prototype to validate it and identify any issues. The method for prototyping depended on the maturity and/or scale of the concept. For some of the larger and/or more novel portions, such as the mobile solution, I used paper prototyping. For smaller, higher confidence interfaces, or where it would otherwise be easier to start directly from an Axure prototype, that is what I did. For instance, for the original flow (business requests payment, customer pays), we had decided to leverage our existing invoicing system. As such, I was able to reuse my Axure prototypes, and I made the relevant changes.
+		
+		<br><br>Once the prototype is built, it's then a matter of usability testing and iteration. For instance, to speed up invoicing, I originally had the due date prefilled and uneditable (the business would set their terms in their settings and this would be applied across all invoices). However, in testing, it was revealed that the terms could be different depending on the type of customer (a business customer vs. a residential customer). This meant that we needed to allow businesses to set the due date of each invoice, which we fixed for the next iteration.
+		
+		<h3>Release of MVP</h3>
+		After iterating, we got the developers to code up the minimal viable product, so that we could learn from people actually using it.
+		
+		<h3>Evaluation and iteration</h3>
+		Once the MVP was released I monitored how it performed. For example,
+		<ul>
+			<li>After the interface for customers to pay businesses was released, I had a poll/widget appear on the page to collect feedback. This showed that people were not receptive to the credit card fee, for example.</li>
+			<li>Further usability testing showed that improvements we had made (e.g. creating a standalone page for payment instead of including it in an existing page) had reduced the cognitive load on users.</li>
+			<li>I also used Clickstream analysis as an indirect method to observe people using it. This showed that some people were having difficulty with the SMS code and abandoning after multiple attempts.</li>
+			<li>I also used analytics to quantitatively assess the success of some initiatives. For instance, there was a sprint-long experiment with collecting credit card information as an optional part of posting a job on the site. Based on the low microconversion rate (of credit cards collected) and the high bounce/exit rate, it was recommended that this be removed.</li>
+		</ul>
+
+</div>
+		
+<!---- ACCORDION -->
+<div id = "accordionText">		
+<button class="accordion" onclick="expandAccordion(this)"><div class="arrow visible">></div> Research</button>
+<div class="panel">
+  We knew the business impetus for the project, but was actually there a problem to be solved from the users' perspective?
+		
+		<h2>Research Objective</h2>
+		Find out how payments currently work and why people prefer various methods. (i.e. establish the status quo and identify any opportunities for improvement)
+		
+		<h2>Conducting the Research</h2>
+		I set up a survey asking users about how they paid for a specific job and why, as well as their general preferences with payments. This way, I elicited both preferential data and the actual outcome.
+		<br><br>
+		I also added a modified version of the questions to one of the customer support call scripts and used the call centre to increase the sample size. I also conducted my own phone and/or Skype interviews to delve deeper qualitatively.
+</div>
+
+<button class="accordion" onclick="expandAccordion(this)"><div class="arrow visible">></div> Analysis</button>
+<div class="panel">
+  I affinity mapped the research findings and identified patterns in the pros and cons of each method, as well as where preferences and actual behaviour diverged.
+
+<h2>Cash</h2>
+<h3>Advantages</h3>
+<ul>
+<li>Instant &ndash; it&lsquo;s over and done with</li>
+<li>Universal</li>
+<li>Discount for the customer (sometimes)</li>
+<li>Saved a lot of hassle for both parties(assuming customer has the cash on hand)</li>
+</ul>
+<h3>Disadvantages</h3>
+<ul><li>Withdrawing is inconvenient and may not be feasible in some cases</li></ul>
+<h3>Good for</h3>
+<ul><li>Smaller jobs/lower value jobs</li>
+<li>Cost is known in advance</li></ul>
+
+<h2>Bank Transfer</h2>
+<h3>Advantages</h3>
+<ul>
+<li>Don&lsquo;t need to have the cash </li>
+<li>Leaves a paper trail (customer feels secure)</li>
+<li>Can be done remotely</li>
+<li>Some service providers automatically match bank receipts with accounting revenue </li>
+</ul>
+<h3>Disadvantages</h3>
+<ul><li>Can drag on, resulting in delays or non-payment </li></ul>
+<h4>Good for</h4>
+<ul><li>Larger jobs/higher value jobs</li>
+<li>Cost is unpredictable (e.g. hourly rate)</li>
+<li>Remote workers</li></ul>
+  
+  <h2>Customers wanted to do what was easiest for the business</h2>
+			Although customers had preferences for payment, the actual payment method used was generally influenced by what was easiest or asked for by the business, especially if there was rapport
+
+			<h2>Accepting credit cards wasn't worth it</h2>
+			While credit card did feature prominently in the preferential data from customers (particularly for larger jobs), few businesses offered it as an option because of the cost associated, which business's could not justify given the size of their business and the ease of alternatives.
+
+			<h2>Businesses were anxious about getting paid</h2>
+			By far, the pervading theme of business's frustrations with the payment process was anxiety about getting paid, including not getting paid on time (or at all), customer resistance to payment, and the feeling of uncertainty that came along with all of it. Moreover, chasing customers up for payment was time consuming.
+
+			  <h2>Personas</h2>
+Our main personas in which we encapsulated the patterns from the research are as follows:
+				
+<h3>Mick</h3>
+<ul>
+<li>35 year old electrician</li>
+<li>High domain knowledge</li>
+<li>Relatively low tech savviness</li>
+<li> Prefers cash but also accepts bank transfer.</li>
+</ul>
+
+<h3>Alana</h3>
+<ul>
+<li>25 year old architect</li>
+<li>Larger scale jobs</li>
+<li>Tech savvy</li> 
+<li>Not always present</li> 
+<li>Prefers bank transfer.</li>
+</ul>
+
+<h3>Julie</h3>
+<ul>
+<li>30 year old customer</li>
+<li>low domain knowledge</i> 
+<li>time poor</li> 
+<li>Prefers whichever is easier in the situation (prefers cash if she has it on hand/doesn't need to withdraw)</li>
+</ul>		
+				
+<img src="persona.jpg" id="persona" />
+<a href="persona.jpg" class="thumb"><img src="persona.jpg"/></a>
+
+			<h2>Opportunity: The best of both worlds</h2>
+			There was an opportunity to save business's time and ease their anxiety by combining the certainty that came with settling the payment immediately, and the traceability and flexibility of bank transfers. It also reduces admin by utilising the information we already have about the initial quote, the business's bank details, the customer's contact information, etc. Furthermore, if the barrier to accepting card payments was cost, that was something we could address using mobile and absorbing the credit card fees (this was possible as the businesses paid a commission that was greater than the cost of the credit card fee). 
+			
+			<img src="venn.png" id="venn">
+
+</div>
+
+<button class="accordion" onclick="expandAccordion(this)"><div class="arrow visible">></div> Synthesis</button>
+<div class="panel">
+
+			
+<h2>Scenarios</h2>
+I gathered everyone who would be working on the payments project and we storyboarded the different scenarios (price known/unknown, settled immediately/later, etc.) based on the research and the personas we had identified. We looked at when the pain points happened, and the surrounding context. Then we iterated on the storyboard with the proposed solution.
+
+In our scenarios we were particularly interested in:
+			<ul>
+				<li>Mick doing a small/large job</li>
+				<li>Price is known/unknown at the start</li>
+				<li>Invoicing on site/after the job</li>
+				<li>Julie paying promptly/needing to be prompted</li>
+			</ul>
+			
+			<img src="storyboard1.jpg" id="storyboard"/>
+			<a href="storyboard1.jpg" class="thumb"><img src="storyboard1.jpg"/></a>
+			
+			<br> <br>The main problem points we identified were:
+
+			<ul>
+				<li>Julie doesn't have the cash on her</li>
+				<li>Julie has so much to do, she forgets about/procrastinates paying Mick (bank transfer)</li>
+				<li>Mick is anxious about getting paid, and has to spend time chasing customers up</li>
+			</ul>
+			
+			We also came up with possible variations for other scenarios:
+			<ul>
+				<li><b>Escrow</b> - jobs requiring deposits and/or instalments (I went back and did more research on this one)</li>
+				<li><b>Invoice</b> - jobs where Julie requires traceability or a breakdown of the price</li>
+				<li><b>Customer initiated transactions</b> - where Julie is more tech savvy than Mick, Mick can initiate verbally as normal and Julie can respond by initiating the online portion of the transaction</li>
+			</ul>
+						
+			<h2>Ideation Workshop</h2>
+			We had an invoicing system on the site that we could adapt for some of this project (this made it a lot easier for the developers, and we could make changes based on feedback) but for the more substantive parts that we were starting from scratch, we began the design process with an ideation workshop. It has been proven that groups outperform individuals when performing creative tasks, and the design studio technique allowed us to harness this effect in eliciting creative ideas from a cross functional team.
+			<br> <br> One example is the workshop we conducted for escrow. We conducted the workshop with everyone in the office and variety of ideas came out of it including:
+			
+			<ul>
+				<li>A contract metaphor: accepting the quote for works done and establishing the escrow with release contingent upon said works being completed</li>
+				<li>Automatically establishing escrow for some job types</li>
+				<li>Replicating the existing payment flow (instead of requesting just payment, adding an extra step of requesting escrow deposit)</li>
+				<li>Use of mobile to conduct the transaction (particularly releasing funds), including authorising the payment by replying to an SMS</li>
+				<li>There were also ideas about the language to be used, where the feature should sit in the site and various interface elements</li>
+			</ul>
+			
+			It was decided that for practicality, we would adapt the existing payment flow for escrow in the short term, with a view to fleshing it out with the other ideas (e.g. contract metaphor) in the long term (subject to any learnings in the interim).
+			
+			<h2>Competitor Research</h2>
+			Competitor research was another useful tool in exploring solutions. In preparation for the escrow design studio, for instance, the core team looked at competitor's offerings (e.g. Airtasker, Freelancer, Odesk) to see how they implemented theirs. Together, we analysed the merits of each, and identified the differences in context (e.g. Freelancer's solution was good for Alana, but not so great for Mick).
+			
+			<h2>Sketching</h2>
+			Sometimes a design studio was considered overkill if the problem was fairly straightforward, such as allowing Julie to access her transaction history and receipts. In cases such as this, I would look at the research we had done and sketch the required flow for the user goal, either on my own or with my payments colleagues. At this stage, the aim was to come up with the framework, rather than the specific interface details. I would come up with a couple of alternatives and discuss it with the team. Once we had a shared vision, we began prototyping.
+
+</div>
+
+<button class="accordion" onclick="expandAccordion(this)"><div class="arrow visible">></div> Delivery</button>
+<div class="panel">
+  		<h2>Prototyping</h2>
+		Before we began building anything, I first built a prototype to validate it and identify any issues. The method for prototyping depended on the maturity and/or scale of the concept. For some of the larger and/or more novel portions, such as the mobile solution, I used paper prototyping. For smaller, higher confidence interfaces, or where it would otherwise be easier to start directly from an Axure prototype, that is what I did. For instance, for the original flow (business requests payment, customer pays), we had decided to leverage our existing invoicing system. As such, I was able to reuse my Axure prototypes, and I made the relevant changes.
+		
+		<br><br>Once the prototype is built, it's then a matter of usability testing and iteration. For instance, to speed up invoicing, I originally had the due date prefilled and uneditable (the business would set their terms in their settings and this would be applied across all invoices). However, in testing, it was revealed that the terms could be different depending on the type of customer (a business customer vs. a residential customer). This meant that we needed to allow businesses to set the due date of each invoice, which we fixed for the next iteration.
+		
+		<h2>Release of MVP</h2>
+		After iterating, we got the developers to code up the minimal viable product, so that we could learn from people actually using it.
+		
+		<h2>Evaluation and iteration</h2>
+		Once the MVP was released I monitored how it performed. For example,
+		<ul>
+			<li>After the interface for customers to pay businesses was released, I had a poll/widget appear on the page to collect feedback. This showed that people were not receptive to the credit card fee, for example.</li>
+			<li>Further usability testing showed that improvements we had made (e.g. creating a standalone page for payment instead of including it in an existing page) had reduced the cognitive load on users.</li>
+			<li>I also used Clickstream analysis as an indirect method to observe people using it. This showed that some people were having difficulty with the SMS code and abandoning after multiple attempts.</li>
+			<li>I also used analytics to quantitatively assess the success of some initiatives. For instance, there was a sprint-long experiment with collecting credit card information as an optional part of posting a job on the site. Based on the low microconversion rate (of credit cards collected) and the high bounce/exit rate, it was recommended that this be removed.</li>
+		</ul>
+</div> <!--Panel-->
+</div> <!-- AccordionText -->
+
+		
+	</div> <!-- Content -->
+</div> <!-- Work -->
+
+<div id="contact">
+
+	<div class="content">
+		<h1>Contact</h1>
+		<p>chris_nguyen@protonmail.com</p>
+		<a href="https://au.linkedin.com/in/chrisnguyen1"><img src="linkedin.png" alt="Linked In" height=40px width=40px /></a>
+		<a href="https://twitter.com/newsability"><img src="twitter.png" alt="Twitter" height=35px width=35px></a>
+	</div> <!-- Content -->
+
+</div> <!-- Contact -->
+
+</body>
+</html>
