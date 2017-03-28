@@ -13,6 +13,10 @@ body
 {
 	/*font-family:Helvetica;*/
 	font-family: 'Roboto', sans-serif;
+}
+
+body.pan
+{
 	font-size:1.7rem;
 	line-height: 150%;
 }
@@ -486,10 +490,13 @@ td
 
 .case
 {
-	display:block;
-	width:30%;
+	display:inline-block;
+	vertical-align:top;
+	width:45%;
 	margin:0 auto;
 	margin-bottom:3%;
+	margin-left:2%;
+	margin-right:2%;
 }
 
 .caseswrapper
