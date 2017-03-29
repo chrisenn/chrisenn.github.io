@@ -23,7 +23,7 @@ body.pan
 
 body.pi
 {
-	font-size:1.2rem;
+	font-size:1rem;
 	line-height: 150%;
 }
 
@@ -554,6 +554,11 @@ td
 .case .description p ul
 {
 	padding-top:0;
+}
+
+.case .description
+{
+	padding-top:2%;
 }
 
 .button
