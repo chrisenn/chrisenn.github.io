@@ -422,6 +422,24 @@ td
 	font-size:3rem;
 }
 
+.pan #headline h1
+{
+	margin:0;
+	font-size:4.5rem;
+	font-weight:bold;
+}
+
+.pan #headline h2
+{
+	margin:0;
+	font-size:3rem;
+}
+
+.pan #headline
+{
+	padding-top:10%;
+}
+
 #headline h2
 {
 	margin-bottom:10px;
