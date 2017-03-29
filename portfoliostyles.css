@@ -34,14 +34,14 @@ body.pan
 
 h1
 {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	text-align:center;
 	
 }
 
 .home h2
 {
-	font-family: 'Roboto', serif;
+	font-family: 'Roboto', sans-serif;
 	margin-top:0;
 	font-size:1.2rem;
 }
@@ -365,7 +365,7 @@ td
 	height:100%;
 	/*background-size:auto;*/
 	text-align:center;
-	vertical-align:middle;
+	vertical-align:middle;s
 	position:relative;
 }
 
@@ -559,7 +559,7 @@ td
 {
 	.case
 	{
-		width:50%;	
+		width:45%;	
 	}
 	
 }
@@ -735,6 +735,7 @@ img.responsive
 #venn
 {
 	margin-top: 5%;
+	display:block;
 }
 a.thumb
 {
