@@ -737,6 +737,16 @@ td
 	color:#35488B;
 }
 
+.pan .content h2
+{
+	font-weight:bold;
+}
+
+.pan .content h3
+{
+	font-weight:bold;
+}
+
 .pi #work
 {
 	background:#fff;
