@@ -427,6 +427,11 @@ td
 	font-size:3rem;
 }
 
+.home #headline h1
+{
+	margin-bottom:0; 
+}
+
 .pan #headline h1
 {
 	margin:0;
