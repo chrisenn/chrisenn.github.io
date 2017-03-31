@@ -198,6 +198,8 @@ td
 	color:#812F88;
 	padding-top:1%;
 	padding-bottom:1%;
+	padding-right:1%;
+	padding-left:1%;
 }
 
 #links
@@ -205,7 +207,7 @@ td
 	text-align:right;
 	float:right;
 	width:70%;
-	padding-top:8px;
+	padding-top:8px
 	
 }
 
@@ -602,6 +604,7 @@ td
 	.case
 	{
 		width:100%;
+		margin-bottom:10%;
 	}
 }
 
