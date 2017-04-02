@@ -370,7 +370,7 @@ a[id= "contacto" ]:target ~ #main article.panel {
 
 @media screen and (max-width:470px)
 {
-	.home #headline
+	#headline
 	{
 		width:75%;
 	}
