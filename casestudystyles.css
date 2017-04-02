@@ -1,0 +1,55 @@
+#hero
+{
+	background: #1A1A1A url("tools2.jpg") left center/cover no-repeat !important;
+	height:60%;
+}
+
+.pan #hero
+{
+	background: #1A1A1A url("pan.jpg") left center/cover no-repeat !important;
+	height:60%;
+}
+
+.pan #headline h1
+{
+	margin:0;
+	font-size:4.5rem;
+	font-weight:bold;
+}
+
+.pan #headline h2
+{
+	margin:0;
+	font-size:3rem;
+}
+
+.pan #headline
+{
+	padding-top:10%;
+}
+
+@media screen and (max-width:329px)
+{
+	.pi #headline h2
+	{
+		display:none;
+	}
+	
+	.pi h1 
+	{
+		display:block;
+	}
+}
+
+@media screen and (max-height:335px)
+{
+	.pi #headline h2
+	{
+		display:none;
+	}
+	
+	.pi h1 
+	{
+		display:block;
+	}
+}
