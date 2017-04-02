@@ -368,6 +368,15 @@ a[id= "contacto" ]:target ~ #main article.panel {
 	}
 }
 
+@media screen and (max-width:470px)
+{
+	.home #headline
+	{
+		width:75%;
+	}
+
+}
+
 @media screen and (min-width:366px)
 {
 	.hamburger
