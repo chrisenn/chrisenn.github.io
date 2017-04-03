@@ -31,7 +31,15 @@
 
 .content
 {
-	margin-top:5%;
+	margin-top:1%;
+}
+
+@media screen and (max-width: 600px)
+{
+	.content
+	{
+		margin-top:2%;
+	}
 }
 
 #contact .content h1
