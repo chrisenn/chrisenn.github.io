@@ -13,6 +13,8 @@ body
 {
 	/*font-family:Helvetica;*/
 	font-family: 'Roboto', sans-serif;
+	width:100%;
+	line-height: 150%;
 }
 
 body.pan
@@ -38,23 +40,21 @@ body.pi
 	padding-top:1%;
 }
 
+@media screen and (max-width:400px)
+{
+	.content
+	{
+
+		width:90%;
+
+	}
+}
+
 h1
 {
 	font-family: 'Roboto', sans-serif;
 	text-align:center;
 	
-}
-
-.home h2
-{
-	font-family: 'Roboto', sans-serif;
-	margin-top:0;
-	font-size:1.2rem;
-}
-
-h3
-{
-
 }
 
 .exhibit
@@ -136,7 +136,7 @@ table.responsive
 	
 	li
 	{
-		margin-top:5%;
+		margin-top:2%;
 	}
 }
 
@@ -190,6 +190,50 @@ td
 	color:#fff;
 	
 }
+
+.fullscreen
+{
+	width:100%;
+}
+
+.fortyfive
+{
+	width:45%;
+}
+
+.forty
+{
+	width:41%;
+}
+
+.responsive
+{
+	display:none;
+}
+
+.button
+{
+	background-color: #5A76C0;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+.button.cta
+{
+	font-size:1.5rem;
+}
+
+.button:hover
+{
+	background:#375094;
+	color:#fff;
+}
+
 
 /*========================================== Navbar ============================================================*/
 #navbar
@@ -404,42 +448,6 @@ a[id= "contacto" ]:target ~ #main article.panel {
 	position:relative;
 }
 
-.home #hero
-{
-	background: #1A1A1A url("lenscropped.jpg");
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.pi #hero
-{
-	background: #1A1A1A url("tools2.jpg") left center/cover no-repeat !important;
-	height:60%;
-}
-
-.fullscreen
-{
-	width:100%;
-}
-
-.fortyfive
-{
-	width:45%;
-}
-
-.forty
-{
-	width:41%;
-}
-
-.pan #hero
-{
-	background: #1A1A1A url("pan.jpg") left center/cover no-repeat !important;
-	height:60%;
-}
-
 #headline
 {
 	display:inline-block;
@@ -456,75 +464,16 @@ a[id= "contacto" ]:target ~ #main article.panel {
 	font-size:3rem;
 }
 
-.home #headline h1
-{
-	margin-bottom:0; 
-}
-
-.pan #headline h1
-{
-	margin:0;
-	font-size:4.5rem;
-	font-weight:bold;
-}
-
-.pan #headline h2
-{
-	margin:0;
-	font-size:3rem;
-}
-
-.pan #headline
-{
-	padding-top:10%;
-}
-
 #headline h2
 {
-	margin-bottom:10px;
-	margin-top:1%;
+	margin-bottom:5%;
+	margin-top:5%;
 	font-size:2rem;
 	font-weight:lighter;
 }
 
-.responsive
-{
-	display:none;
-}
-
-@media screen and (max-width:329px)
-{
-	.pi #headline h2
-	{
-		display:none;
-	}
-	
-	.pi h1 
-	{
-		display:block;
-	}
-}
-
-@media screen and (max-height:335px)
-{
-	.pi #headline h2
-	{
-		display:none;
-	}
-	
-	.pi h1 
-	{
-		display:block;
-	}
-}
-
 @media screen and (max-width:800px)
 {
-
-	.pi #hero
-	{
-		height:50%
-	}
 	
 	#headline h2
 	{
@@ -535,227 +484,9 @@ a[id= "contacto" ]:target ~ #main article.panel {
 
 /*========================================== Work ============================================================*/
 
-#work
-{
-	background:#FFF;
-}
-
-#work h1, #work h2
+#work .content h1, #work .content h2
 {
 	color:#35488B;
-}
-
-.case
-{
-	display:inline-block;
-	vertical-align:top;
-	width:45%;
-	margin:0 auto;
-	margin-bottom:3%;
-	margin-left:2%;
-	margin-right:2%;
-}
-
-.caseswrapper
-{
-	display: block;
-	width:100%;
-}
-
-.case img
-{
-	display:block;
-	width:100%;
-}
-
-.case a
-{
-	color:#488A96;
-	text-decoration:none;
-	font-weight:bold;
-	display:block;
-	font-size: 1.2rem;
-}
-
-.description 
-{
-	display:block;
-	vertical-align:top;
-	font-size:1rem;
-	width:100%;
-}
-
-.case .description p ul
-{
-	padding-top:0;
-}
-
-.case .description
-{
-	padding-top:2%;
-}
-
-.button
-{
-	background-color: #5A76C0;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 1rem;
-}
-
-.button.cta
-{
-	font-size:1.5rem;
-}
-
-.button:hover
-{
-	background:#375094;
-}
-
-@media screen and (max-width:1121px)
-{
-	.case
-	{
-		width:45%;	
-	}
-	
-}
-
-@media screen and (max-width:630px)
-{
-	.case
-	{
-		width:100%;
-		margin-bottom:10%;
-	}
-}
-
-/*========================================== About ============================================================*/
-
-#about
-{
-	/*background:#F0F0F0;*/
-	background: #1A1A1A url("lensground1.jpg");
-	color:#fff;
-	padding-top:2%;
-	
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#about img
-{
-	width:20%;
-	display:inline-block;
-	margin-right:5%;
-	border-radius: 50%;
-}
-
-#about .description
-{
-	width:66%;
-	display:inline-block;
-	line-height: 150%;
-	font-size: 1.2rem;
-}
-
-@media screen and (max-width:450px)
-{
-
-	#about
-	{
-		text-align:center;
-	}
-	
-	#about img
-	{
-		width:100%;
-	}
-	
-	#about ul
-	{
-		list-style-type:none;
-	}
-	
-	#about li
-	{
-		margin-bottom:15px;
-		padding-left:0;
-		margin-left:-40px;
-	}
-}
-
-@media screen and (max-width:700px)
-{
-
-	#about
-	{
-		text-align:center;
-	}
-	
-	#about img
-	{
-		width:50%;
-	}
-	
-	#about .description
-	{
-		width:100%;
-	}
-}
-
-@media screen and (max-width:400px)
-{	
-	#about img
-	{
-		width:100%;
-	}
-	
-		#about
-	{
-		text-align:left;
-	}
-	
-	#about .description
-	{
-		width:100%;
-	}
-}
-
-/*========================================== Philosophy ============================================================*/
-
-#philosophy
-{
-	background:#35488B;
-	color:#fff;
-}
-
-.designvalue
-{
-	display:inline-block;
-	text-align:center;
-	width:23%;
-	vertical-align:top;
-	margin-left:5%;
-	margin-right:5%;
-}
-
-@media screen and (max-width:1185px)
-{
-	#philosophy .designvalue
-	{
-		width:100%;
-		margin-bottom:30px;
-		margin-left:0;
-		margin-right:0;	
-	}
 }
 
 /*========================================== Contact ============================================================*/
@@ -770,251 +501,4 @@ a[id= "contacto" ]:target ~ #main article.panel {
 #contact img
 {
 	margin-right:10px;
-}
-
-/*========================================== PI ============================================================*/
-
-.pi .content h2
-{
-	color:#35488B;
-}
-
-.pan .content h2
-{
-	font-weight:bold;
-}
-
-.pan .content h3
-{
-	font-weight:bold;
-}
-
-.pi #work
-{
-	background:#fff;
-}
-
-.pi #diagram
-{
-	width:50%;
-	display:block;
-	padding-top:1%;
-	padding-bottom:1%;
-}
-
-img.responsive
-{
-	width:100%;
-}
-
-#venn
-{
-	margin-top: 5%;
-	display:block;
-}
-a.thumb
-{
-	display:none;
-}
-
-a.thumb img
-{
-	width:100%;
-}
-
- /* Style the buttons that are used to open and close the accordion panel */
-button.accordion {
-    background-color: #eee;
-    color: #488A96;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    text-align: left;
-    border: none;
-    outline: none;
-    transition: 0.4s;
-	font-size:1.2rem;
-}
-
-/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-button.accordion.active {
-    background-color: #35488B;
-	color: #FFF;
-	font-weight:bold;
-}
-
-.arrow
-{
-	display:none;
-}
-
-.arrow.visible
-{
-	display:inline;
-}
-
-button.accordion:hover {
-    background-color: #ddd;
-	color:#000;
-
-}
-
-button.accordion.active:hover {
-    background-color: #35488B;
-	color: #FFF;
-	font-weight:bold;
-}
-
-/* Style the accordion panel. Note: hidden by default */
-div.panel {
-    padding: 0 18px;
-    background-color: white;
-    display: none;
-	margin-top:15px;
-	margin-bottom:20px;
-}
-
-/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
-div.panel.show {
-    display: block;
-}
-
-#accordionText
-{
-	display:none;
-}
-
-@media screen and (max-width:500px)
-{
-	#detailedText
-	{
-		display:none;
-	}
-	
-	#accordionText
-	{
-		display:block;
-	}
-}
-
-
-@media screen and (max-width:1100px)
-{
-	
-	.pi #diagram
-	{
-		width:60%;
-	}
-}
-
-@media screen and (max-width:950px)
-{
-	
-	.pi #venn
-	{
-		width:100%;
-	}
-	
-	
-}
-
-@media screen and (max-width:450px)
-{
-	
-	.pi #venn
-	{
-		display:none;
-	}
-	
-	.pi #storyboard
-	{
-		display:none;
-	}
-	
-	.pi a[href="storyboard1.jpg"].thumb 
-	{
-		display:block;
-	}
-	
-	
-}
-
-@media screen and (max-width:980px)
-{
-	
-	.pi #storyboard
-	{
-		width:100%;
-	}
-	
-	
-}
-
-@media screen and (max-width:900px)
-{
-	
-	.pi #diagram
-	{
-		width:80%;
-	}
-	
-	
-}
-
-@media screen and (max-width:700px)
-{
-	
-	.pi #diagram
-	{
-		width:100%;
-	}
-	
-}
-
-@media screen and (max-width:750px)
-{
-	
-	.pi #persona
-	{
-		width:100%;
-	}
-	
-}
-
-@media screen and (max-width:550px)
-{
-	.pi #diagram
-	{
-		display:none;
-	}
-	
-	.pi ul.responsive
-	{
-		display:inline-block;
-	}
-	
-	.pi #persona
-	{
-		display:none;
-	}
-	
-	.pi a[href="persona.jpg"].thumb 
-	{
-		display:block;
-	}
-
-}
-
-.unresponsivetext
-{
-	display:inline;
-}
-
-@media screen and (max-width:400px)
-{
-	.unresponsivetext
-	{
-		display:none;
-	}
-
 }

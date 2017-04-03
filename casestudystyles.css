@@ -1,31 +1,99 @@
-#hero
+.stage
+{
+	display:inline-block;
+	width:20%;
+	margin-right:5%;
+	vertical-align: top;
+	margin-top:5%;
+}
+
+.stageHeading
+{
+	width:100%;
+	font-weight: bold;
+	border-style:solid;
+	border-width:2px;
+	padding:10px;
+	text-align:center;
+}
+
+.stageDesc
+{
+	padding-top:10%;
+}
+
+.stageDesc ul
+{
+	list-style: none;
+	padding-left:0;
+	text-align:center;
+}
+
+.content
+{
+	margin-top:5%;
+}
+
+#contact .content h1
+{
+	color:#FFF;
+}
+
+#work
+{
+	background:#FFF;
+}
+
+img.responsive
+{
+	width:100%;
+}
+
+@media screen and (max-width: 1070px)
+{
+	.stage
+	{
+		width:40%;
+	}
+}
+
+@media screen and (max-width: 695px)
+{
+	.stage
+	{
+		width:100%;
+	}
+
+	.stageDesc
+	{
+		padding-top:2%;
+	}
+}
+
+/* =================== Payments and Invoicing ===========================*/
+
+.pi #hero
 {
 	background: #1A1A1A url("tools2.jpg") left center/cover no-repeat !important;
 	height:60%;
 }
 
-.pan #hero
+.pi .content h2
 {
-	background: #1A1A1A url("pan.jpg") left center/cover no-repeat !important;
-	height:60%;
+	color:#35488B;
 }
 
-.pan #headline h1
+.pi #work
 {
-	margin:0;
-	font-size:4.5rem;
-	font-weight:bold;
+	background:#fff;
 }
 
-.pan #headline h2
+.pi #diagram
 {
-	margin:0;
-	font-size:3rem;
-}
-
-.pan #headline
-{
-	padding-top:10%;
+	width:50%;
+	display:block;
+	padding-top:1%;
+	padding-bottom:1%;
 }
 
 @media screen and (max-width:329px)
@@ -51,5 +119,320 @@
 	.pi h1 
 	{
 		display:block;
+	}
+}
+
+@media screen and (max-width:800px)
+{
+
+	.pi #hero
+	{
+		height:50%
+	}
+
+}
+
+#venn
+{
+	margin-top: 5%;
+	display:block;
+}
+
+a.thumb
+{
+	display:none;
+}
+
+a.thumb img
+{
+	width:100%;
+}
+
+
+ /* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #488A96;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+	font-size:1.2rem;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active {
+    background-color: #35488B;
+	color: #FFF;
+	font-weight:bold;
+}
+
+.arrow
+{
+	display:none;
+}
+
+.arrow.visible
+{
+	display:inline;
+}
+
+button.accordion:hover {
+    background-color: #ddd;
+	color:#000;
+
+}
+
+button.accordion.active:hover {
+    background-color: #35488B;
+	color: #FFF;
+	font-weight:bold;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+	margin-top:15px;
+	margin-bottom:20px;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block;
+}
+
+#accordionText
+{
+	display:none;
+}
+
+@media screen and (max-width:500px)
+{
+	#detailedText
+	{
+		display:none;
+	}
+	
+	#accordionText
+	{
+		display:block;
+	}
+}
+
+
+@media screen and (max-width:1100px)
+{
+	
+	.pi #diagram
+	{
+		width:60%;
+	}
+}
+
+@media screen and (max-width:950px)
+{
+	
+	.pi #venn
+	{
+		width:100%;
+	}
+	
+	
+}
+
+@media screen and (max-width:450px)
+{
+	
+	.pi #venn
+	{
+		display:none;
+	}
+	
+	.pi #storyboard
+	{
+		display:none;
+	}
+	
+	.pi a[href="storyboard1.jpg"].thumb 
+	{
+		display:block;
+	}
+	
+	
+}
+
+@media screen and (max-width:980px)
+{
+	
+	.pi #storyboard
+	{
+		width:100%;
+	}
+	
+	
+}
+
+@media screen and (max-width:900px)
+{
+	
+	.pi #diagram
+	{
+		width:80%;
+	}
+	
+	
+}
+
+@media screen and (max-width:700px)
+{
+	
+	.pi #diagram
+	{
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width:750px)
+{
+	
+	.pi #persona
+	{
+		width:100%;
+	}
+	
+}
+
+@media screen and (max-width:550px)
+{
+	.pi #diagram
+	{
+		display:none;
+	}
+	
+	.pi ul.responsive
+	{
+		display:inline-block;
+	}
+	
+	.pi #persona
+	{
+		display:none;
+	}
+	
+	.pi a[href="persona.jpg"].thumb 
+	{
+		display:block;
+	}
+
+}
+
+.unresponsivetext
+{
+	display:inline;
+}
+
+@media screen and (max-width:400px)
+{
+	.unresponsivetext
+	{
+		display:none;
+	}
+
+}
+
+/* =================== Pan ================================================*/
+
+.pan #hero
+{
+	background: #35488B url("pan.jpg") left center/cover no-repeat !important;
+	height:60%;
+}
+
+@media screen and (max-width:550px)
+{
+	.pan #hero
+	{
+		background-image:none !important;
+	}
+}
+
+.pan #headline h1
+{
+	margin:0;
+	font-size:4.5rem;
+	font-weight:bold;
+}
+
+.pan #headline h2
+{
+	margin:0;
+	font-size:3rem;
+}
+
+.pan #headline
+{
+	padding-top:10%;
+}
+
+.pan .content h2
+{
+	font-weight:bold;
+}
+
+.pan .content h3
+{
+	font-weight:bold;
+}
+
+.pan #solution
+{
+	text-align:left;
+	width:100%;
+}
+
+.pan #responsivePrototype
+{
+	display:none;
+}
+
+@media screen and (max-width:600px)
+{
+	.pan #solution
+	{
+		display:none;
+	}
+
+	.pan #responsivePrototype img
+	{
+		width:60%;
+		margin-bottom:5%;
+	}
+
+	.pan #responsivePrototype
+	{
+		display:block;
+	}
+}
+
+@media screen and (max-width:1020px)
+{
+	.pan img[src="epic.png"]
+	{
+		width:100%;
+	}
+}
+
+@media screen and (max-width:600px)
+{
+	#stuff img
+	{
+		width:100%;
+		margin-bottom:5%;
 	}
 }
