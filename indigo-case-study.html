@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRTKVQG');</script>
+<!-- End Google Tag Manager -->
+
+<title>Indigo App Redesign</title>
+<!-- Detailed Version -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="portfoliostyles.css">
+<link rel="stylesheet" type="text/css" href="casestudystyles.css">
+
+</head>
+
+<body class="indigo">
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRTKVQG"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<div id="navbar">
+	<div id="logo">
+		<a href="index.html"><img src="logo3.png" width="35px" /></a>
+	</div>
+	<div id="links">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html#work" id="selected">Work</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+	 <div class="hamburger" onclick="myFunction(this), show('mobmenu')">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+	</div>
+	
+	<div id="mobmenu">
+	  <ul>
+		<li><a href="#" class="selected">Home</a></li>
+		<li><a href="#">Work</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>
+	  </ul>
+	</div> 
+</div>
+
+<div id="hero">
+	<div id="headline">
+		<h1>Indigo Redesign</h1>
+		<h2>Case Study</h2>
+	</div>
+</div> <!-- Hero -->
+
+<div id="work">
+<div class="content">
+<div id="stuff"> <!-- Wrapper for images to be 100% in responsive -->
+		<h1 class="responsive">Case Study</h1>
+			<p>This was a personal project to redesign the Chapters Indigo Android app.</p>
+
+		<h2>Task: Looking for a Fantasy Book
+
+		<div class="inlineblock">
+			<h3>Current</h3>
+			<iframe width="424" height="916" src="https:////invis.io/FDBAR282M" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+
+		<div class="inlineblock">
+			<h3>Redesign</h3>
+			<iframe width="424" height="916" src="https://invis.io/3XBAQM17N" frameborder="0" allowfullscreen></iframe>
+		</div>
+		
+		<br />
+
+		<h2>Methodology</h2>
+		<ol>
+			<li />Research
+			<li />Heuristic Evaluation
+			<li />Benchmark Usability Testing
+			<li />Inspiration Finding
+			<li />Low Fidelity Prototyping
+			<li />High Fidelity Prototyping
+			<LI />Usability Testing
+		</ol>
+
+
+		<h2>Research</h2>
+		The aim of the research was to get information on the mental model of the user, and generate a proto persona for use in making design decisions.
+
+		<h3>Main Insights</h3>
+		<ul>
+			<li />People know roughly what kind of books they like
+			<li />They think in terms of genres
+			<li />The trigger for the user's journey is:
+				<ul>
+					<li /><b>Search:</b> Recommendations (e.g. from friends, Amazon, a podcast, etc.) or requirements (e.g. work, university, etc.)
+					<li /><b>Browse:</b> Boredom
+				</ul>
+		</ul>
+
+		<img src="indigo/indigopersona.png" />
+
+	
+
+		<h2>Heuristic Evaluation</h2>
+		<p>
+			The main opportunities for improvement identified through the heuristic evaluation were:
+			<ul>
+				<li /><b>Categorisation gives a high interaction cost for little benefit</b>
+					<ul>
+						<li />Too deep and too many
+						<li />Categories are abritrary, non-exhaustive and contains duplicates
+						<li />Forces the user to go to the end (which may be more specific than they want, or the wrong topic)
+						<li />Some bottom level categories only have one book
+						<li />Limits the exploratory potential of browsing (which is the goal)
+						<li />With the large number of (non standardised) categories, findability is an issue in the absence of visual cues like iconography or images
+					</ul>
+					<br />
+				<li /><b>Difficult to browse by genre</b>
+					<ul>
+						<li />"Shop By Department" on the home page looks like a header so is automatically filtered out by the brain
+						<li />Promotional categories are emphasised, even in Shop By Category (Promotional collections are fine on the home page, but clicking on "Shop By Category" shows intent to browse by genre)
+					</ul>
+					<br />
+					<li /><b>Home page</b>
+						<ul>
+							<li />Low contrast on the carousel header (illegible)
+							<li />In the visual hierarchy, the books are given the least importance and the promotions/lists of lists are given the most
+						</ul>
+						<br />
+					<li /><b>Product Details page</b>
+						<ul>
+							<li />Review information and stars are spread out, causing ambiguity
+							<li />Stars look like they could be clickable, but they are not
+							<li />Red banner at the top is alarming and irrelevant
+							<li />Too many competing CTAs
+							<li />Categories looks like an accordian element but it's not
+							<li />Categories don't take you to the categories
+						</ul>
+			</ul>
+		</p>
+
+		<h2>Constraints</h2>
+		<h3>Assumed Business Requirements</h3>
+		<p>
+			The parts of the app that generate revenue were:
+			<ul>
+				<li /><b>Conversion goal:</b> Purchases (i.e. adding items, including non-book items, to your cart and checking out)
+				<li /><b>Microconversion goal:</b> Saving items to your wishlist/giftlist
+				<li /><b>Other drivers of revenue:</b> Advertising sales and featured books; Plum Points.
+			</ul>
+		</p>
+
+		<h3>Assumed Technical Constraints</h3>
+		<p>
+			The following operations will be costly and require further discussion and approval. They are outside the scope of this iteration. 
+			<ul>
+				<li />Adding features
+				<li />Data entry at the book level
+			</ul>
+		</p>
+
+		<h2>Inspiration Finding</h2>
+		<img src="indigo/inspo.png" class="fullscreen"/>
+
+		<h2>Low Fidelity Prototyping</h2>
+		<img src="indigo/lofi/01.png" class="fifty" /><img src="indigo/lofi/02.png" class="fifty top" /><img src="indigo/lofi/03.png" class="fifty" /><img src="indigo/lofi/04.png" class="fifty top" />
+
+		<h2>High Fidelity Prototyping</h2>
+		<img src="indigo/hifi/Home.png" class="fifty" /><img src="indigo/hifi/Fiction.png" class="fifty" />
+		<img src="indigo/hifi/Fantasy.png" class="fifty" /><img src="indigo/hifi/Book.png" class="fifty top" />
+
+		<h2>Design Rationale</h2>
+		<p>
+			Sasha's tasks are:
+			<ul>
+				<li />Look for books she's been recommended (Search)
+				<li />Look for new books she might like (Browse)
+				<li />Look for books for her friends (Either browse or search, depending on the friend)
+			</ul>
+
+			Search is straight forward, so I focused on improving the browsing experience. At a high level, I made it more about the books. I increased their prominence, reduced the steps to get to them and made it more efficient to look at more books at once. I also reprioritised the information in the product details page to make for quicker decision making, and reduced cognitive load.
+		</p>
+
+		<h3>Changes</h3>
+		<img src="indigo/comparison.png" class="fullscreen" />
+		<br /> <Br />
+		
+		<h4>Home</h4>
+		<img src="indigo/current/home.png" class="fifty top"/><img src="indigo/hifi/home.png" class="fifty" />
+		<br /> <Br />
+		<p>
+			<ul>
+				<li />Separating out into Fiction and Non-Fiction, and then only using the top level genre categories (informed by survey data)
+				<li />Moving "Shop By Department" lower down (as the non-book departments are less frequently used in the app, vs. the website) and replaced it with buttons for Fiction and Non Fiction books
+				<li />Fiction and Non Fiction buttons are not full length so they have affordance
+				<li />Increased the size of the carousel and replaced the buttons to lists with the actual list of books in carousel form
+			</ul>
+		</p>
+
+		<h4>Categories</h4>
+		<img src="indigo/current/category.png" class="fifty top"/><img src="indigo/hifi/fiction.png" class="fifty" />
+		<br /> <Br />
+		<p>
+			<ul>
+				<li />Replaced category lists and the buttons to them with carousels for more efficient browsing (to mimic the experience of browsing in store) and to visually differentiate the different genres
+			</ul>
+		</p>
+
+		<h4>Book List View</h4>
+		<img src="indigo/current/fairytales.png" class="fifty top"/><img src="indigo/hifi/fantasy.png" class="fifty" />
+		<br /> <Br />
+		<p>
+			<ul>
+				<li />Added secondary navigation to the list view so Sasha can easily switch between genres
+			</ul>
+		</p>
+
+		<h4>Product Details</h4>
+		<img src="indigo/current/book.png" class="fifty top"/><img src="indigo/hifi/book.png" class="fifty top" />
+		<br /> <Br />
+		<p>
+			<ul>
+				<li />Got rid of the tote bag ad, the Like button and the link to learn about Plum Points
+				<li />Made "Add to Cart" (the conversion goal) a full width button
+				<li />Hid the Wish List and Gift List actions under a "Save" action on the page
+				<li />Reduced the visual weight of the "Search by author" affordance
+				<li />Left alignment for readability
+				<li />Higher contrast text
+			</ul>
+		</p>
+
+
+
+
+
+
+
+
+
+		</div> <!--Stuff -->
+	</div> <!-- Content -->
+</div> <!-- Work -->
+
+<div id="contact">
+
+	<div class="content">
+		<h1>Contact</h1>
+		<p>chris_nguyen@protonmail.com</p>
+		<a href="https://au.linkedin.com/in/chrisnguyen1"><img src="linkedin.png" alt="Linked In" height=40px width=40px /></a>
+		<a href="https://twitter.com/newsability"><img src="twitter.png" alt="Twitter" height=35px width=35px></a>
+	</div> <!-- Content -->
+
+</div> <!-- Contact -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
+
+</body>
+</html>

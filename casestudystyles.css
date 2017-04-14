@@ -1,3 +1,8 @@
+.indigo body
+{
+	font-size:1.5rem;
+}
+
 .stage
 {
 	display:inline-block;
@@ -83,7 +88,12 @@ img.responsive
 .pi #hero
 {
 	background: #1A1A1A url("tools2.jpg") left center/cover no-repeat !important;
+}
+
+#hero
+{
 	height:60%;
+
 }
 
 .pi .content h2
@@ -359,7 +369,6 @@ div.panel.show {
 .pan #hero
 {
 	background: #35488B url("pan.jpg") left center/cover no-repeat !important;
-	height:60%;
 }
 
 @media screen and (max-width:550px)
@@ -443,4 +452,39 @@ div.panel.show {
 		width:100%;
 		margin-bottom:5%;
 	}
+}
+
+
+
+/*============Indigo===========================*/
+.indigo h4
+{
+	margin-top:3%;
+}
+
+.indigo h2
+{
+	margin-top:5%;	
+}
+
+
+.indigo #hero
+{
+	background-image: url("indigo/hero.png");
+}
+
+.indigo #hero h1
+{
+	font-size:5rem;
+}
+
+.indigo #hero h2
+{
+	font-size:3rem;
+}
+
+.indigo
+{
+	font-size:1.7rem;
+	line-height: 150%;
 }

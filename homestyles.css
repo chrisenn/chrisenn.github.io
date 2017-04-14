@@ -35,6 +35,19 @@
 	margin-right:2%;
 }
 
+.case img:hover 
+{
+  background: #7049cc;
+  opacity: 0.8;
+}
+
+.case:hover a
+{ 
+
+	text-decoration:underline;
+
+}
+
 .caseswrapper
 {
 	display: block;
