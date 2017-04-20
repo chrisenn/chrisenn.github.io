@@ -19,6 +19,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="stylesheet" type="text/css" href="portfoliostyles.css">
 <link rel="stylesheet" type="text/css" href="casestudystyles.css">
+<link rel="stylesheet" href="flickity.css">
 
 </head>
 
@@ -71,17 +72,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<h1 class="responsive">Case Study</h1>
 			<p>This was a personal project to redesign the Chapters Indigo Android app.</p>
 
-		<h2>Task: Looking for a Fantasy Book
+		<h2>Task: Looking for a Fantasy Book</h2>
 
-		<div class="inlineblock">
-			<h3>Current</h3>
+		<h3>Current</h3>
+		<div class="prototype">
+			<p>Click anywhere on the prototype to reveal clickable areas.</p>
 			<iframe width="424" height="916" src="https:////invis.io/FDBAR282M" frameborder="0" allowfullscreen></iframe>
 		</div>
 
+		<div class="responsivePrototype" id="indigoOld">
+		<div class="viewPrototype"><a href="https:////invis.io/FDBAR282M" class="button">View Prototype</a></div>
+		</div>
 
-		<div class="inlineblock">
-			<h3>Redesign</h3>
+
+		<h3>Redesign</h3>
+		<div class="prototype">
+			<p>Click anywhere on the prototype to reveal clickable areas.</p>
 			<iframe width="424" height="916" src="https://invis.io/3XBAQM17N" frameborder="0" allowfullscreen></iframe>
+		</div>
+
+		<div class="responsivePrototype" id="indigoNew">
+		<div class="viewPrototype"><a href="https://invis.io/3XBAQM17N" class="button">View Prototype</a></div>
 		</div>
 		
 		<br />
@@ -110,7 +121,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 				</ul>
 		</ul>
 
-		<img src="indigo/indigopersona.png" />
+		<a href="indigo/indigopersona.png"><img src="indigo/indigopersona.png" class="fullscreen"/></A>
 
 	
 
@@ -176,7 +187,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<img src="indigo/inspo.png" class="fullscreen"/>
 
 		<h2>Low Fidelity Prototyping</h2>
+		<!--
 		<img src="indigo/lofi/01.png" class="fifty" /><img src="indigo/lofi/02.png" class="fifty top" /><img src="indigo/lofi/03.png" class="fifty" /><img src="indigo/lofi/04.png" class="fifty top" />
+		-->
+
+<!--
+	<div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
+	 <div class="carousel-cell">
+	    <img src="indigo/lofi/01.png" alt="Home"/>
+	  </div>
+	  <div class="carousel-cell">
+	    <img src="indigo/lofi/02.png" alt="Fiction Books"/>
+	  </div>
+	  <div class="carousel-cell">
+	    <img src="indigo/lofi/03.png" alt="Fantasy Books" />
+	  </div>
+	  <div class="carousel-cell">
+	    <img src="indigo/lofi/04.png" alt="Product Details" />
+	  </div>
+</div>
+-->
 
 		<h2>High Fidelity Prototyping</h2>
 		<img src="indigo/hifi/Home.png" class="fifty" /><img src="indigo/hifi/Fiction.png" class="fifty" />
@@ -269,6 +299,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script type="text/javascript" src="javascript.js"></script>
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 
 
 </body>

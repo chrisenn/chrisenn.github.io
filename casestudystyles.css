@@ -83,6 +83,35 @@ img.responsive
 	}
 }
 
+
+/* external css: flickity.css 
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  background: #EEE;
+}
+
+.carousel-cell {
+  margin-right: 20px;
+  overflow: hidden;
+}
+
+.carousel-cell img {
+  display: block;
+  height: 200px;
+}
+
+@media screen and ( min-width: 768px ) {
+  .carousel-cell img {
+    height: 400px;
+  }
+}
+
+*/
+
 /* =================== Payments and Invoicing ===========================*/
 
 .pi #hero
@@ -364,6 +393,77 @@ div.panel.show {
 
 }
 
+.prototype
+{
+	text-align:left;	
+}
+
+.responsivePrototype
+{
+	width:300px;
+	height:614px;
+	display:none;
+	background-size: cover;
+}
+
+.responsivePrototype img
+{
+	display:block;
+	width:30%;
+}
+
+.responsivePrototype#indigoOld
+{
+	background-image:url("indigo/oldprototype.png");
+}
+
+.responsivePrototype#indigoNew
+{
+	background-image:url("indigo/newprototype.png");
+}
+
+.viewPrototype
+{
+	text-align:center;
+	padding-top:90%;
+}
+
+.viewPrototype a.button
+{
+	background:transparent;
+	color:#fff;
+	font-size:3rem;
+	font-family: "Roboto Condensed";
+	font-weight: 200;
+	border-style:solid;
+	border-color: #fff;
+}
+
+.viewPrototype a.button:hover
+{
+	background:#fff;
+	color:#000;
+	text-decoration: none;
+}
+
+@media screen and (max-width: 580px)
+{
+	.prototype
+	{
+		display:none;
+	}
+
+	.responsivePrototype
+	{
+		display:block;
+	}
+}
+
+@media screen and (min-width:885px)
+{
+
+}
+
 /* =================== Pan ================================================*/
 
 .pan #hero
@@ -488,3 +588,5 @@ div.panel.show {
 	font-size:1.7rem;
 	line-height: 150%;
 }
+
+
