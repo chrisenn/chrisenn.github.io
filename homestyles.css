@@ -196,6 +196,12 @@
 	{
 		width:100%;
 	}
+
+	.content
+	{
+		padding-left:0;
+		padding-right:0;
+	}
 }
 
 .small
