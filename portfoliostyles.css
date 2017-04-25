@@ -140,8 +140,6 @@ table.responsive
 	}
 }
 
-
-
 @media screen and (max-width:950px)
 {
 	#storyboard
@@ -247,6 +245,16 @@ td
 .inlineblock
 {
 	display:inline-block;
+}
+
+.block
+{
+	display:block;
+}
+
+.inline
+{
+	display:inline;
 }
 /*========================================== Navbar ============================================================*/
 #navbar
@@ -446,8 +454,6 @@ a[id= "contacto" ]:target ~ #main article.panel {
 		display:none;
 	}
 }
-
-
 
 
 /*========================================== Hero Image ============================================================*/
