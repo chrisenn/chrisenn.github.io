@@ -2,14 +2,6 @@
 <html lang="en-AU">
 <head>
 
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KRTKVQG');</script>
-<!-- End Google Tag Manager -->
-
 <title>Chris Nguyen: UX Researcher</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,9 +9,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="icon" type="image/png" href="favicon.png">
 <link rel="stylesheet" type="text/css" href="portfoliostyles.css">
 <link rel="stylesheet" type="text/css" href="homestyles.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+
 <script type="text/javascript" src="javascript.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+<script src="smooth-scroll-master/dist/js/smooth-scroll.js"></script>
 
 </head>
 
@@ -37,9 +31,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	<div id="links">
 		<ul>
 			<li class="selected">Home</li>
-			<li><a href="#work" id="worknav">Work</a></li>
-			<li><a href="#about">About</a></li>
-			<li><a href="#contact">Contact</a></li>
+			<li><a data-scroll href="#work" id="worknav">Work</a></li>
+			<li><a data-scroll href="#about">About</a></li>
+			<li><a data-scroll href="#contact">Contact</a></li>
 		</ul>
 	</div>
 	
@@ -65,7 +59,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div id="headline">
 		<h1>Chris Nguyen</h1>
 		<h2>Putting your users in focus.</h2>
-		<a href="#work" class="button cta">See my work</a>
+		<a data-scroll href="#work" class="button cta">See my work</a>
 		</div> <!-- Headline -->
 </div> <!-- Hero -->
 
@@ -160,6 +154,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	</div> <!-- Content -->
 
 </div> <!-- Contact -->
+
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KRTKVQG');</script>
+<!-- End Google Tag Manager -->
+<script>
+	smoothScroll.init();
+</script>
 
 </body>
 
