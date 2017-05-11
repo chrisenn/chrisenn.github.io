@@ -196,12 +196,17 @@ td
 
 .fortyfive
 {
-	width:45%;
+	width:49%;
 }
 
 .forty
 {
 	width:41%;
+}
+
+.bottommargin
+{
+	margin-bottom:2%;
 }
 
 .fifty

@@ -34,11 +34,6 @@
 	text-align:left;
 }
 
-.content
-{
-	margin-top:1%;
-}
-
 @media screen and (max-width: 600px)
 {
 	.content
@@ -55,6 +50,7 @@
 #work
 {
 	background:#FFF;
+	padding-top:1%;
 }
 
 img.responsive
@@ -111,7 +107,6 @@ body { font-family: sans-serif; }
 }
 
 */
-
 /* =================== Payments and Invoicing ===========================*/
 
 .pi #hero
@@ -122,6 +117,9 @@ body { font-family: sans-serif; }
 #hero
 {
 	height:60%;
+	width:100%;
+	background-size:cover;
+	background:#000;
 
 }
 
@@ -422,6 +420,16 @@ div.panel.show {
 	background-image:url("indigo/newprototype.png");
 }
 
+.responsivePrototype#panHifi
+{
+	background-image:url("pan/tintedmockup.png");
+}
+
+.responsivePrototype#panLofiRedesign
+{
+	background-image:url("pan/lofiredesign.png");
+}
+
 .viewPrototype
 {
 	text-align:center;
@@ -468,7 +476,7 @@ div.panel.show {
 
 .pan #hero
 {
-	background: #35488B url("pan.jpg") left center/cover no-repeat !important;
+	background: #35488B url("pan/hero.jpg") left center/cover no-repeat !important;
 }
 
 @media screen and (max-width:550px)
@@ -590,3 +598,114 @@ div.panel.show {
 }
 
 
+.stuff img
+{
+	box-shadow: 10px 10px 5px #888888;
+}
+
+.relative
+{
+	position: relative;
+}
+
+.left
+{
+	left:0;	
+}
+
+.right
+{
+	float:right;
+}
+
+/*========== Carousel ==================*/
+#carouselBox
+	{
+		height:667px;
+		width:414px;
+		overflow:scroll;
+	}
+
+#carouselBox img
+{
+	width:100%;
+}
+
+#carousel
+{
+	position:relative;
+	display:inline-block;
+	padding-left:5%;
+	padding-right:5%;
+}
+
+a.control
+{
+	display:inline-block;
+	position:absolute;
+	top:300px;
+	cursor:pointer;
+	font-size:3rem;
+	color:#545454;
+}
+
+a.control:hover
+{
+	color:#7c7c7c;
+}
+
+a.control#next
+{
+	right:0;
+}
+a.control#previous
+{
+	left:0;
+}
+
+.dot 
+{
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover 
+{
+		background-color: #717171;
+}
+
+img.active
+{
+	display:inline-block;
+}
+
+#dots
+{
+	text-align: center;
+	padding-top:10px;
+}
+
+.none
+{
+	display:none;
+}
+
+@media screen and (max-width: 1000px)
+{
+	#hifi.responsive
+	{
+		display:block;
+	}
+
+	#carousel
+	{
+		display:none;
+	}	
+
+}
