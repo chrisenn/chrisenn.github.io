@@ -1,7 +1,9 @@
+/*
 .indigo body
 {
 	font-size:1.5rem;
 }
+*/
 
 .stage
 {
@@ -109,11 +111,13 @@ body { font-family: sans-serif; }
 */
 /* =================== Payments and Invoicing ===========================*/
 
+/*
 body.pi
 {
 	font-size:1rem;
 	line-height: 150%;
 }
+*/
 
 .pi #hero
 {
@@ -480,11 +484,13 @@ div.panel.show {
 
 /* =================== Pan ================================================*/
 
+/*
 body.pan
 {
 	font-size:1.7rem;
 	line-height: 150%;
 }
+*/
 
 .pan #hero
 {
@@ -501,15 +507,13 @@ body.pan
 
 /*.pan*/ #headline h1
 {
-	margin:0;
-	font-size:4.5rem;
+	font-size:3rem;
 	font-weight:bold;
 }
 
 /*.pan*/ #headline h2
 {
-	margin:0;
-	font-size:3rem;
+	font-size:2.5rem;
 }
 
 .pan #headline
@@ -634,10 +638,12 @@ body.pan
 
 /*============eDocs===========================*/
 
+/*
 body.eDocs
 {
 	font-size:1.7rem;
 }
+*/
 
 .eDocs #hero
 {
