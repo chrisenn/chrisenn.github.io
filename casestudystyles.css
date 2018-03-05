@@ -109,6 +109,12 @@ body { font-family: sans-serif; }
 */
 /* =================== Payments and Invoicing ===========================*/
 
+body.pi
+{
+	font-size:1rem;
+	line-height: 150%;
+}
+
 .pi #hero
 {
 	background: #1A1A1A url("tools2.jpg") left center/cover no-repeat !important;
@@ -474,6 +480,12 @@ div.panel.show {
 
 /* =================== Pan ================================================*/
 
+body.pan
+{
+	font-size:1.7rem;
+	line-height: 150%;
+}
+
 .pan #hero
 {
 	background: #35488B url("pan/hero.jpg") left center/cover no-repeat !important;
@@ -487,14 +499,14 @@ div.panel.show {
 	}
 }
 
-.pan #headline h1
+/*.pan*/ #headline h1
 {
 	margin:0;
 	font-size:4.5rem;
 	font-weight:bold;
 }
 
-.pan #headline h2
+/*.pan*/ #headline h2
 {
 	margin:0;
 	font-size:3rem;
@@ -617,6 +629,51 @@ div.panel.show {
 {
 	float:right;
 }
+
+
+
+/*============eDocs===========================*/
+
+body.eDocs
+{
+	font-size:1.7rem;
+}
+
+.eDocs #hero
+{
+	background: #35488B url("eDocs/hero.jpg") left center/cover no-repeat !important;
+}
+
+@media screen and (max-width:550px)
+{
+	.eDocs #hero
+	{
+		background-image:none !important;
+	}
+}
+
+
+.eDocs h1
+{
+	color:#FFF;
+}
+
+
+/*============PrideHacks===========================*/
+
+.pridehacks #hero
+{
+	background: #35488B url("pridehacks/hero.jpg") left center/cover no-repeat !important;
+}
+
+@media screen and (max-width:550px)
+{
+	#hero
+	{
+		background-image:none !important;
+	}
+}
+
 
 /*========== Carousel ==================*/
 #carouselBox

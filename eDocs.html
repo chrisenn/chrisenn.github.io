@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<title>eDocs</title>
+<!-- Detailed Version -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="portfoliostyles.css">
+<link rel="stylesheet" type="text/css" href="casestudystyles.css">
+
+
+
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K4RL2N"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+	(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-K4RL2N');  
+</script>
+<!-- End Google Tag Manager -->
+
+</head>
+
+<body class="eDocs">
+<div id="navbar">
+	<div id="logo">
+		<a href="index.html"><img src="logo3.png" width="35px" /></a>
+	</div>
+	<div id="links">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="index.html#work" id="selected">Work</a></li>
+			<li><a href="index.html#about">About</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</ul>
+	</div>
+	
+	 <div class="hamburger" onclick="myFunction(this), show('mobmenu')">
+		  <div class="bar1"></div>
+		  <div class="bar2"></div>
+		  <div class="bar3"></div>
+	</div>
+	
+	<div id="mobmenu">
+	  <ul>
+		<li><a href="#" class="selected">Home</a></li>
+		<li><a href="#">Work</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Contact</a></li>-
+	  </ul>
+	</div> 
+</div>
+
+<div id="hero">
+	<div id="headline">
+		<h1>e-Docs</h1>
+		<h2>Going Paperless</h2>
+	</div> <!-- Headline -->
+</div> <!-- Hero -->
+
+<div id="work">
+	<div class="content">
+		<h1 class="responsive">Accessibility Case Study</h1>
+			<p>Allowing insurance policy holders to log in and download a digital tax receipt, thereby saving costs on printing and mailing out tax receipts, and reducing environmental impact. This project was initiated by our partner company (Mixto) as a pilot, with a view to going paperless with other documents in the future. </p>
+
+		<h2>My Role</h2>
+		<ul>
+			<li>UX Design</li>
+			<li>Accessibility</li>
+			<li>QA/Testing</li>
+		</ul>
+
+		<h2>Constraints</h2>
+		<ul>
+			<li>Had to work within the constraints of the client’s existing database/systems</li>
+			<li>Back End was being handled by partner company</li>
+			<li>Hard release date</li>
+		</ul>
+
+		<h2>Solution</h2>
+		<p>A repository for online documents (e.g. tax receipt) relating to customers' insurance for easy access, findability and decreased waste for both customer and company. It was also required to include an admin view for Manulife employees.</p>
+
+		<h2>Methodology</h2>
+		<ol>
+			<li>Scoping</li>
+			<li>Low fidelity prototyping (wireframing and feedback loop)</li>
+			<li>High Fidelity prototyping (wireframing and feedback loop)</li>
+			<li>Developer handover</li>
+			<li>Internal testing</li>
+			<li>Testing with partner company</li>
+			<li>UAT testing with Manulife</li>
+		</ol>
+
+		<h2>Design</h2>
+		<p>Having received a spec from Mixto, I went back and forth with them during which I made some low fidelity prototypes, received feedback and iterated. Once we got it settled, I made my prototype high fidelity. I had intended to use Manulife’s branding and visual style for consistency but I noticed that the Manulife website was a patchwork of different systems with different branding. Hence, I came to decision that I would take the branding, but make the actual interface look different to the website. This was to communicate implicitly that when they log into this new system, it does not carry over to any other part of Manulife’s website – it is standalone, much like the others.</p>
+
+		<h2>Development</h2>
+		<p>The prototype had received positive feedback from Manulife and they signed off. However, during development, we encountered some challenges. Although the client had signed off on the proposal, other departments were now getting involved and this caused the (sometimes contradictory) requirements to keep changing over a period of time, which hindered development from advancing. We eventually put a hard stop to it, but even then, it had already taken up a lot of time. The other major challenge we had was that we underestimated how difficult it would be to implement accessibility, particularly screen reader compatibility across different browsers. With our small team, we needed to work across silos if we were going to deliver on time. I helped the developers with the accessibility guidelines. Another designer, our partner organization’s project lead and I took the role of QA and we helped with testing, debugging and helping to find solutions. A couple of developers also helped with project management tasks. We also had a feedback loop with the client’s QA to guide us. Through the adversity, we banded together as a team and ended up delivering the product, passing the client’s QA/UAT.</p>
+
+		<h2>Outcome</h2>
+		<p>The project received positive feedback and Manulife signed on to an additional project.</p>
+
+		<h2>Lessons Learned</h2>
+		<h3>Accessibility</h3>
+		<ul>
+			<li>Be familiar with all parts of accessibility, even the technical aspects</li>
+			<li>Test with an actual screen reader and allocate a lot of time</li>
+		</ul>
+
+		<h3>Project Management</h3>
+		<ul>
+		<li>A more agile approach, with iterative cycles as opposed to sign offs, are more conducive to changes</li>
+		<li>Be wary of scope creep</li>
+		<li>Get everyone in the same room – within Manulife there were multiple departments involved, with conflicting requirements. There was also a time lag between them, Mixto and then in turn us</li>
+		<li>Draw upon existing resources</li>
+		<li>Estimate projects more realistically</li>
+		</ul>
+	</div> <!-- Content -->
+</div> <!-- Work -->
+
+<div id="contact">
+
+	<div class="content">
+		<h1>Contact</h1>
+		<p>chris_nguyen@protonmail.com</p>
+		<a href="https://au.linkedin.com/in/chrisnguyen1"><img src="linkedin.png" alt="Linked In" height=40px width=40px /></a>
+		<a href="https://twitter.com/newsability"><img src="twitter.png" alt="Twitter" height=35px width=35px></a>
+	</div> <!-- Content -->
+
+</div> <!-- Contact -->
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="javascript.js"></script>
+
+
+</body>
+</html>
