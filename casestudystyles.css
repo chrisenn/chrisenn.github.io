@@ -111,13 +111,13 @@ body { font-family: sans-serif; }
 */
 /* =================== Payments and Invoicing ===========================*/
 
-/*
+
 body.pi
 {
 	font-size:1rem;
-	line-height: 150%;
+	line-height:150%;`
 }
-*/
+
 
 .pi #hero
 {
@@ -131,6 +131,11 @@ body.pi
 	background-size:cover;
 	background:#000;
 
+}
+
+.pi .content
+{
+	width:65%;
 }
 
 .pi .content h2
@@ -680,6 +685,16 @@ body.eDocs
 	}
 }
 
+/*===============Aytra==================*/
+.aytra #hero
+{
+	background: #35488B url("aytra/hero.jpg") left center/cover no-repeat !important;
+}
+
+#work img
+{
+	margin-bottom: 20px;
+}
 
 /*========== Carousel ==================*/
 #carouselBox

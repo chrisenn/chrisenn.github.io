@@ -23,6 +23,11 @@ p img
 	margin-bottom: 2%;
 }
 
+p a
+{
+	text-decoration: underline; 
+}
+
 .content
 {
 	width:75%;
@@ -186,6 +191,14 @@ td
 .fullscreen
 {
 	width:100%;
+}
+
+@media screen and (min-width:1500px)
+{
+	#work .fullscreen
+	{
+		width:900px;
+	}
 }
 
 .fortyfive
