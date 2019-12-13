@@ -787,3 +787,11 @@ img.active
 	}	
 
 }
+
+
+/* ===== UIS ============ */
+
+.uis #hero
+{
+	background: #35488B url("uis/hero.jpg") left center/cover no-repeat !important;
+}
