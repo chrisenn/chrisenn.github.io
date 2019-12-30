@@ -1,0 +1,15 @@
+#pan .jumbotron
+{
+	background: #B7FF66;
+	color:#FFF;
+}
+
+.case .jumbotron
+{
+	background-size: cover;
+}
+
+body
+{
+	background: #B7FF66;
+}

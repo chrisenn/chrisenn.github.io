@@ -1,0 +1,86 @@
+#pan .minijumbo, #pan .navbar
+{
+	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('../assets/pan/headerbg2.jpeg');*/
+	background: #DBFFB2;
+}
+
+#aytra .minijumbo, #aytra .navbar
+{
+	background: #B2D0FF;
+}
+
+#pridehacks .minijumbo, #pridehacks .navbar
+{
+	background: #FFB2B2;
+}
+
+#uis .minijumbo, #uis .navbar
+{
+	background: #FFE2D4;
+}
+
+#payments .minijumbo, #payments .navbar
+{
+	background: #FFF9D0;
+}
+
+#edocs .minijumbo, #edocs .navbar
+{
+	background: #B4FFEC;
+}
+
+.minijumbo img
+{
+	padding-top:16px;
+}
+
+.minijumbo
+{
+	padding-top:16px;
+	padding-bottom:48px;
+}
+
+section img
+{
+	padding-bottom:15px;
+	padding-top:15px;
+	vertical-align: top;
+}
+
+section
+{
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+#pan #summary
+{
+	background: #DBFFB2;
+}
+
+section .container
+{
+	max-width:764px;
+}
+
+section h2
+{
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+section h3
+{
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+blockquote
+{
+	padding-left:32px;
+	border-left-width: 8px;
+	border-left-style: solid;
+	border-left-color: rgba(0,0,0,0.05);
+	margin-top: 16px;
+	margin-bottom: 16px;
+}

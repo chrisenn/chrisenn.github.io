@@ -1,0 +1,121 @@
+#home .navbar
+{
+	background: #66FFC6;
+}
+
+#home .jumbotron
+{
+	background: #66FFC6 url('assets/jumbotronbg.svg');
+	background-size: cover;
+}
+
+#work .card-title
+{
+	font-weight: bold;
+}
+
+#work .card
+{
+	margin: 24px;
+}
+
+#about img
+{	
+	display:inline-block;
+	margin-right:16px;
+	margin-top:16px;
+	margin-bottom:16px;
+	border-radius: 50%;
+	vertical-align:top
+}
+
+@media screen and (max-width: 768px) 
+{
+	#about .responsivecenter
+	{
+		display:block;
+		text-align: center;
+	}
+}
+
+#about
+{
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.73)), url("assets/aboutbg2.jpeg");
+}
+
+
+#work
+{
+	background: #FDFDFD;
+}
+
+#pan .crop
+{
+	background: #DBFFB2;
+	padding-top:32px;
+	padding-left:148px;
+	padding-right:148px;
+}
+
+@media screen and (max-width: 768px) 
+{
+	#pan .crop
+	{
+	}
+}
+
+#aytra .crop
+{
+	background: #B2D0FF;
+	padding-top: 64px;
+	padding-left:48px;
+	padding-right:48px;
+}
+
+#pridehacks .crop
+{
+	background: #FFB2B2;
+	padding-top: 64px;
+	padding-left:48px;
+	padding-right:48px;
+}
+
+#uis .crop
+{
+	background: #FFE2D4;
+	padding-top: 64px;
+	padding-left:48px;
+	padding-right:48px;
+}
+
+#edocs .crop
+{
+	background: #B4FFEC;
+	padding-top: 64px;
+	padding-left:48px;
+	padding-right:48px;
+}
+
+#payments .crop
+{
+	background: #FFF9D0;
+	padding-top: 64px;
+	padding-left:48px;
+	padding-right:48px;
+}
+
+.card:hover
+{
+	box-shadow: 4px 4px 8px #eee;
+}
+
+.card, .card-img-top
+{
+	border-radius: 0;
+}
+
+.crop 
+{
+	height:300px;
+    overflow: hidden;
+}

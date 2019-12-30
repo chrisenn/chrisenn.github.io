@@ -1,0 +1,158 @@
+html
+{
+	scroll-behavior: smooth;
+}
+
+body
+{
+	font-family: "Open Sans", "OpenSans", "Arial";
+	line-height: 1.8;
+}
+
+
+h1
+{
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 16px;
+	font-family: "Montserrat";
+}
+
+footer
+{
+	padding-top: 32px;
+	padding-bottom: 32px;
+}
+
+h2
+{
+	font-weight: 600;	
+}
+
+.nav-item.active
+{
+	font-weight:600;
+}
+
+section
+{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+section.first
+{
+	padding-top: 32px;
+}
+
+section.last
+{
+	padding-bottom: 32px;
+}
+
+.row
+{
+	margin-top:16px;
+	margin-bottom:16px;
+}
+
+.subtitle
+{
+	font-size: 1.5rem;
+}
+
+.jumbotron h1, .minijumbo h1
+{
+	font-size: 4rem;
+	font-weight: 300;
+}
+
+.jumbotron
+{
+	height: 100%;
+	margin-bottom: 0;
+}
+
+.paral 
+{
+	min-height: 500px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+}
+
+.vertical-center 
+{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.flex-center-vertically {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 400px;
+}
+
+button
+{
+	border-radius: 25px;
+}
+
+.inline
+{
+	display: inline;
+}
+
+.fullwidth
+{
+	width: 100%;
+}
+
+.onDark
+{
+	color:#FFF;
+}
+
+.inline-block
+{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.center
+{
+	margin: 0 auto;
+}
+
+.block
+{
+	display: block;
+}
+
+#contact
+{
+	background: #1a1a1a;
+}
+
+#contact .icon
+{
+	margin-top: 12px;
+	margin-bottom: 12px;
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 32px;
+}
+
+a
+{
+	color: #3F6ED6;
+}
+
+.no-padding
+{
+	padding:0;
+}
