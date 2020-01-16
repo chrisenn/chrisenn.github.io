@@ -29,6 +29,11 @@
 	background: #D7E5DF;
 }
 
+#marketing .minijumbo, #marketing .navbar
+{
+	background: #DCEEF0;
+}
+
 .minijumbo img
 {
 	padding-top:16px;
