@@ -11,7 +11,7 @@
 
 #work .card-title
 {
-	font-weight: bold;
+	font-weight: 700;
 }
 
 #work .card
@@ -57,10 +57,19 @@
 	padding-right:148px;
 }
 
+/*
+The thumbnails on the home page. 
+Control the size by defining the padding.
+*/
+
 @media screen and (max-width: 768px) 
 {
 	#pan .crop
 	{
+		background: #DBFFB2;
+		padding-top:32px;
+		padding-left:48px;
+		padding-right:48px;
 	}
 }
 
