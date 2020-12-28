@@ -49,14 +49,6 @@
 	background: #FDFDFD;
 }
 
-#pan .crop
-{
-	background: #DBFFB2;
-	padding-top:32px;
-	padding-left:148px;
-	padding-right:148px;
-}
-
 /*
 The thumbnails on the home page. 
 Control the size by defining the padding.
@@ -64,61 +56,73 @@ Control the size by defining the padding.
 
 @media screen and (max-width: 768px) 
 {
-	#pan .crop
+	.phone.crop
 	{
-		background: #DBFFB2;
 		padding-top:32px;
 		padding-left:48px;
 		padding-right:48px;
 	}
 }
 
-#aytra .crop
+.laptop.crop
 {
-	background: #F2F5F8;
 	padding-top: 64px;
 	padding-left:48px;
 	padding-right:48px;
 }
 
-#pridehacks .crop
+.tablet.crop
 {
-	background: #FFB2B2;
 	padding-top: 64px;
 	padding-left:48px;
 	padding-right:48px;
+}
+
+.phone.crop
+{
+	padding-top:32px;
+	padding-left:148px;
+	padding-right:148px;
+}
+
+#assettrack .crop
+{
+	background: #E3F5F0;
+}
+
+#aytra .crop
+{
+	background: #F2F5F8;
+}
+
+#pridehacks .crop
+{
+	background: #FFCFCF;
 }
 
 #uis .crop
 {
 	background: #FFE2D4;
-	padding-top: 64px;
-	padding-left:48px;
-	padding-right:48px;
 }
 
 #edocs .crop
 {
 	background: #D7E5DF;
-	padding-top: 64px;
-	padding-left:48px;
-	padding-right:48px;
+}
+
+#pan .crop
+{
+	background: #DBFFB2;
 }
 
 #marketing .crop
 {
 	background: #DCEEF0;
-	padding-top: 64px;
-	padding-left:48px;
-	padding-right:48px;
 }
 
 #payments .crop
 {
 	background: #FFF9D0;
-	padding-top: 64px;
-	padding-left:48px;
-	padding-right:48px;
 }
 
 .card:hover
