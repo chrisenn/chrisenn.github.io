@@ -3,6 +3,11 @@
 	background: #E3F5F0;
 }
 
+#cibc .minijumbo, #cibc .navbar
+{
+	background: #FFCFCF
+}
+
 #pan .minijumbo, #pan .navbar
 {
 	/*background: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)), url('../assets/pan/headerbg2.jpeg');*/

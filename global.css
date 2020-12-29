@@ -70,8 +70,15 @@ section.last
 .jumbotron
 {
 	height: 100%;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 }
+
+@media (max-width: 576px) {
+    .jumbotron 
+    {
+        padding-top: 100px;
+    }
+} 
 
 .paral 
 {
