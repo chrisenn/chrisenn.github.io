@@ -90,6 +90,11 @@ Control the size by defining the padding.
 	background: #E3F5F0;
 }
 
+#cibc .crop
+{
+	background: #FFCFCF;
+}
+
 #aytra .crop
 {
 	background: #F2F5F8;
