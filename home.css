@@ -54,26 +54,16 @@ The thumbnails on the home page.
 Control the size by defining the padding.
 */
 
-@media screen and (max-width: 768px) 
-{
-	.phone.crop
-	{
-		padding-top:32px;
-		padding-left:48px;
-		padding-right:48px;
-	}
-}
-
 .laptop.crop
 {
-	padding-top: 64px;
 	padding-left:48px;
 	padding-right:48px;
 }
 
+
 .tablet.crop
 {
-	padding-top: 64px;
+	padding-top: 32px;
 	padding-left:48px;
 	padding-right:48px;
 }
@@ -84,6 +74,27 @@ Control the size by defining the padding.
 	padding-left:148px;
 	padding-right:148px;
 }
+
+@media screen and (max-width: 576px) 
+{
+	.phone.crop
+	{
+		padding-top:32px;
+		padding-left:48px;
+		padding-right:48px;
+	}
+
+	.tablet.crop
+	{
+		padding-top:;
+	}
+
+	.laptop.crop
+	{
+	}
+}
+
+/*========Colours================*/
 
 #assettrack .crop
 {
@@ -144,9 +155,16 @@ Control the size by defining the padding.
 {
 	height:300px;
     overflow: hidden;
+    background: #EEE;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
-.crop
+@media screen and (max-width: 576px)
 {
-	background: #EEE;
+	.crop
+	{
+		height:200px;
+	}
 }
