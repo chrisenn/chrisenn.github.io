@@ -75,7 +75,7 @@ Control the size by defining the padding.
 	padding-right:148px;
 }
 
-@media screen and (max-width: 576px) 
+@media screen and (max-width: 768px) 
 {
 	.phone.crop
 	{
@@ -161,7 +161,7 @@ Control the size by defining the padding.
     flex-wrap: wrap;
 }
 
-@media screen and (max-width: 576px)
+@media screen and (max-width: 768px)
 {
 	.crop
 	{
