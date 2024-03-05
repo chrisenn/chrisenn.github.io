@@ -96,6 +96,11 @@ Control the size by defining the padding.
 
 /*========Colours================*/
 
+#disputes .crop
+{
+	background: #C8DDF4;
+}
+
 #assettrack .crop
 {
 	background: #E3F5F0;
