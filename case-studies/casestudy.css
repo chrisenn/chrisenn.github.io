@@ -49,6 +49,11 @@
 	background: #DCEEF0;
 }
 
+#copilot .minijumbo, #copilot .navbar
+{
+	background: #D5E9F5;
+}
+
 .minijumbo img
 {
 	padding-top:16px;

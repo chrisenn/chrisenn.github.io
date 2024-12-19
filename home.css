@@ -96,6 +96,11 @@ Control the size by defining the padding.
 
 /*========Colours================*/
 
+#copilot .crop
+{
+	background: #D5E9F5;
+}
+
 #disputes .crop
 {
 	background: #C8DDF4;
