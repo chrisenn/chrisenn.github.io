@@ -111,6 +111,11 @@ Control the size by defining the padding.
 	background: #E3F5F0;
 }
 
+#channelagent .crop
+{
+	background: #CAC3F0;
+}
+
 #cibc .crop
 {
 	background: #FFCFCF;

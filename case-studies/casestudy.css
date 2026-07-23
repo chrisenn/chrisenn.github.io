@@ -8,6 +8,11 @@
 	background: #E3F5F0;
 }
 
+#channelagent .minijumbo, #channelagent .navbar
+{
+	background: #CAC3F0
+}
+
 #cibc .minijumbo, #cibc .navbar
 {
 	background: #FFCFCF
